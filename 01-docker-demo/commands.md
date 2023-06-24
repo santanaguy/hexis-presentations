@@ -12,10 +12,10 @@ cd getting-started/app
 
 Create a Dockerfile
 
+For Bash on Linux (and Play with Docker)
+
 ```bash
 cat <<EOF > Dockerfile
-# Bash command for Linux users (and Play With Docker)
-   
 FROM node:18-alpine
 WORKDIR /app
 COPY . .
@@ -25,10 +25,9 @@ EXPOSE 3000
 EOF
 ```
 
+For Powershell: 
 ```powershell
 @'
-# Powershell command for Windows users
-   
 FROM node:18-alpine
 WORKDIR /app
 COPY . .
