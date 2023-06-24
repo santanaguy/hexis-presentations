@@ -14,7 +14,7 @@ Create a Dockerfile
 
 ```bash
 cat <<EOF > Dockerfile
-# syntax=docker/dockerfile:1
+# Bash command for Linux users (and Play With Docker)
    
 FROM node:18-alpine
 WORKDIR /app
@@ -27,7 +27,7 @@ EOF
 
 ```powershell
 @'
-# syntax=docker/dockerfile:1
+# Powershell command for Windows users
    
 FROM node:18-alpine
 WORKDIR /app
