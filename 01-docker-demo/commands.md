@@ -12,7 +12,7 @@ cd getting-started/app
 
 Create a Dockerfile
 
-```
+```bash
 cat <<EOF > Dockerfile
 # syntax=docker/dockerfile:1
    
@@ -23,6 +23,20 @@ RUN yarn install --production
 CMD ["node", "src/index.js"]
 EXPOSE 3000
 EOF
+```
+
+```powershell
+@'
+# syntax=docker/dockerfile:1
+   
+FROM node:18-alpine
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
+'@ | Out-File -FilePath "Dockerfile" -Encoding UTF8
+
 ```
 
 Now build the image
