@@ -13,12 +13,7 @@ cd getting-started/app
 Create a Dockerfile
 
 ```
-touch Dockerfile
-```
-
-paste the following on your Dockerfile
-
-```
+cat <<EOF > Dockerfile
 # syntax=docker/dockerfile:1
    
 FROM node:18-alpine
@@ -27,6 +22,7 @@ COPY . .
 RUN yarn install --production
 CMD ["node", "src/index.js"]
 EXPOSE 3000
+EOF
 ```
 
 Now build the image
