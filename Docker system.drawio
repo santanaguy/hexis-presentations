@@ -1,0 +1,29 @@
+<mxfile host="app.diagrams.net" modified="2023-06-26T21:12:00.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XhLXeAht_5CARqLfGjSP" version="21.5.0" type="device">
+  <diagram name="Page-1" id="8-PBmYLW-bfUIpkRmdMB">
+    <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DPfrfFqSN3x50agk8AxW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPfrfFqSN3x50agk8AxW-8" target="DPfrfFqSN3x50agk8AxW-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPfrfFqSN3x50agk8AxW-8" value="docker-compose.yml" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="172" y="232" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DPfrfFqSN3x50agk8AxW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPfrfFqSN3x50agk8AxW-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPfrfFqSN3x50agk8AxW-11" value="docker compose up -d" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="252" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPfrfFqSN3x50agk8AxW-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/441/aiga_cashier-128.png" vertex="1" parent="1">
+          <mxGeometry x="617" y="218" width="128" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

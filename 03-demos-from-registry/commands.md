@@ -9,3 +9,7 @@ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong()Password" -p 143
 docker exec -it sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "yourStrong()Password"
 
 # Ravendb
+docker run -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
+
+# nginx
+docker run -p 8080:80 --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx

@@ -1,9 +1,10 @@
 services:
-  vote:
-    image: dockersamples/examplevotingapp_vote
+  vote: #service name
+    scale: 3 #create 3 of these
+    image: dockersamples/examplevotingapp_vote 
     ports:
-      - "5000:80"
-    networks:
+      - "5000-5005:80" #format host_port:container_port. Remember that we will create 3 containers
+    networks: #which networks will this container belong to?
       - front-tier
       - back-tier
 
@@ -39,7 +40,7 @@ services:
       - back-tier
 
 volumes:
-  db-data:
+  db-data: #define external volume for the databases
 
 networks:
   front-tier:
