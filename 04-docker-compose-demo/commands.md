@@ -9,7 +9,7 @@ services:
     scale: 3
     image: dockersamples/examplevotingapp_vote 
     ports:
-      - "5000-5005:80" #format host_port:container_port
+      - "5002-5005:80" #format host_port:container_port
     networks: #which networks will this container belong to?
       - front-tier
       - back-tier
@@ -62,7 +62,7 @@ services:
     scale: 3
     image: dockersamples/examplevotingapp_vote 
     ports:
-      - "5000-5005:80" #format host_port:container_port
+      - "80" #format host_port:container_port
     networks: #which networks will this container belong to?
       - front-tier
       - back-tier
